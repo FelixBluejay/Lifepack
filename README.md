@@ -14,7 +14,7 @@ It is strongly encouraged that players that have 3 or 2 lives not intentionally 
 I recommend playing with Keep Inventory and a small-ish world border.
 Players that joined after the initialization command had been run start the game with 3 lives.
 To manually set a player's life value run:
-- /scoreboard players set <player> Lives <number>
+- /scoreboard players set \<player\> Lives \<number\>
 - /function lifepack:change_team
 
 Original idea: https://www.youtube.com/watch?v=nszciRXXJZk&pp=ygUOZ3JpYW4gM3JkIGxpZmU%3D
