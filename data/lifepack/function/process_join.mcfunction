@@ -1,0 +1,1 @@
+execute if entity @p[team=] run function lifepack:add_score

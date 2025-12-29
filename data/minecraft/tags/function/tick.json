@@ -1,5 +1,6 @@
 {
   "values": [
-    "lifepack:process_death"
+    "lifepack:process_death",
+    "lifepack:process_join"
   ]
 }

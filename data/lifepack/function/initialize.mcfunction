@@ -2,7 +2,7 @@ scoreboard objectives add Died deathCount
 scoreboard objectives add Lives dummy
 scoreboard players reset @a Lives 
 scoreboard players add @a Lives 3
-scoreboard objectives setdisplay sidebar Lives
+scoreboard objectives setdisplay list Lives
 
 team add 0
 team modify 0 color gray
