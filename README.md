@@ -16,3 +16,5 @@ Players that joined after the initialization command had been run start the game
 To manually set a player's life value run:
 - /scoreboard players set <player> Lives <number>
 - /function lifepack:change_team
+
+Original idea: https://www.youtube.com/watch?v=nszciRXXJZk&pp=ygUOZ3JpYW4gM3JkIGxpZmU%3D
