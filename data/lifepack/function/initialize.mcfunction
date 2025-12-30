@@ -14,3 +14,6 @@ team add 3+
 team modify 3+ color green
 
 function lifepack:change_team
+
+scoreboard objectives add dummy dummy
+scoreboard players add function1 dummy 1000
