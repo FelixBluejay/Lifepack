@@ -13,5 +13,6 @@ scoreboard players set 600 math 600
 scoreboard players set 20 math 20
 scoreboard players set 1200 math 1200
 scoreboard players set 120 math 120
+scoreboard players set 60 math 60
 
 
