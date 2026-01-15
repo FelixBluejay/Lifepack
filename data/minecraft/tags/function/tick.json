@@ -2,6 +2,7 @@
   "values": [
     "lifepack:process_death",
     "lifepack:process_join",
-    "lifepack:boogey_tick"
+    "lifepack:boogey_tick",
+    "lifepack:timer_tick"
   ]
 }
