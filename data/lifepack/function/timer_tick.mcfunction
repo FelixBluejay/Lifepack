@@ -11,5 +11,5 @@ scoreboard players operation seconds timer %= 60 math
 execute if score global timer matches 0.. run bossbar set timer name ["Timer - ",{"score":{"name":"minutes","objective":"timer"}},":",{"score":{"name":"seconds","objective":"timer"}}," remaining"]
 execute if score seconds timer matches 0..9 run bossbar set timer name ["Timer - ",{"score":{"name":"minutes","objective":"timer"}},":0",{"score":{"name":"seconds","objective":"timer"}}," remaining"]
 execute if score global timer matches ..-1 run bossbar set timer name "Time's up!"
-execute if score global timer matches ..-1 run function lifepack:boogey_lose
+execute if score global timer matches ..-1 run function boogeyman:boogey_lose
 execute if score global timer matches 0 run title @a title "Time's up!"
