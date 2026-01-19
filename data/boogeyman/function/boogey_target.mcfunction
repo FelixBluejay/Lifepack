@@ -1,0 +1,1 @@
+function util:setup_timer {minutes: 5}

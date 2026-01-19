@@ -3,6 +3,6 @@
     "lifepack:process_death",
     "lifepack:process_join",
     "boogeyman:boogey_tick",
-    "lifepack:timer_tick"
+    "util:timer_tick"
   ]
 }
