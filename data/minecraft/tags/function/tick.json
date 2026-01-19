@@ -2,7 +2,7 @@
   "values": [
     "lifepack:process_death",
     "lifepack:process_join",
-    "boogeyman:boogey_tick",
+    "boogeyman:countdown_tick",
     "util:timer_tick"
   ]
 }

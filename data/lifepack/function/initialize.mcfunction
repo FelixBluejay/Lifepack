@@ -1,5 +1,6 @@
 scoreboard objectives add Died deathCount
 scoreboard objectives add Lives dummy
+scoreboard objectives add Kills minecraft.custom:minecraft.player_kills
 scoreboard players reset @a Lives 
 scoreboard players add @a Lives 3
 scoreboard objectives setdisplay list Lives
@@ -14,7 +15,11 @@ team add 3+
 team modify 3+ color green
 
 function lifepack:change_team
-function lifepack:setup_timer
+function util:setup_rules
+
+tag @a remove target
+tag @a remove boogeyman
+scoreboard players set timerTicks timer -99
 
 scoreboard objectives add dummy dummy
 scoreboard players add function1 dummy 1000
