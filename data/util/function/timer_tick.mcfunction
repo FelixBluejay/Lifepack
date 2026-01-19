@@ -15,10 +15,11 @@ scoreboard players operation timerSeconds timer %= 60 math
 scoreboard players operation timerMinutes timer = timerTicks timer
 scoreboard players operation timerMinutes timer /= 1200 math
 
+# Add leading zero to seconds if 0 <= seconds <= 9
 execute if score timerTicks timer matches 0.. run bossbar set timer name ["Timer - ",{"score":{"name":"timerMinutes","objective":"timer"}},":",{"score":{"name":"timerSeconds","objective":"timer"}}," remaining"]
 execute if score timerSeconds timer matches 0..9 run bossbar set timer name ["Timer - ",{"score":{"name":"timerMinutes","objective":"timer"}},":0",{"score":{"name":"timerSeconds","objective":"timer"}}," remaining"]
 
 execute if score timerTicks timer matches 0 run bossbar set timer name "Time's up!"
-execute if score timerTicks timer matches 0 run title @a title "Time's up!"
-execute if score timerTicks timer matches -100 run bossbar set minecraft:timer visible false
+execute if score timerTicks timer matches 0 run title @a title {"color":"red", "text":"Time's up!"} 
 execute if score timerTicks timer matches 0 run function boogeyman:boogey_lose
+execute if score timerTicks timer matches -100 run bossbar set minecraft:timer visible false
