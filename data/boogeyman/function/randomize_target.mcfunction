@@ -1,4 +1,6 @@
-tag @r[team=!0,team=!1,tag=!boogeyman] add target
+tag @r[team=!0, team=!1, tag=!boogeyman] add target
+
+scoreboard objectives add targetPos dummy
 
 title @p[tag=target] times 20 100 20
 title @p[tag=target] subtitle {"color":"dark_red","text":"You're being tracked. Survive for the next 5 minutes"}
