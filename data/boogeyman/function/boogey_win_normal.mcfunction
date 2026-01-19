@@ -1,3 +1,5 @@
 tellraw @a[tag=boogeyman] {"color":"green", "text": "Yay! You did it!"}
+
 tag @a[tag=boogeyman] remove boogeyman
-scoreboard players set global timer -100
+tag @a[tag=target] remove target
+scoreboard players set timerTicks timer -99
